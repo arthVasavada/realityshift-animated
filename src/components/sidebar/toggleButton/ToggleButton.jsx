@@ -8,7 +8,7 @@ const ToggleButton = ({ setOpen }) => {
         <svg className="mt-2 ml-3" width="30" height="30" viewBox="0 0 25 25">
           <motion.path
             strokeWidth="3"
-            stroke="black"
+            stroke="white"
             strokeLinecap="round"
             variants={{
               closed: { d: "M 2 2.5 L 20 2.5" },
@@ -18,7 +18,7 @@ const ToggleButton = ({ setOpen }) => {
 
           <motion.path
             strokeWidth="3"
-            stroke="black"
+            stroke="white"
             strokeLinecap="round"
             d="M 2 9 L 20 9"
             variants={{ closed: { opacity: 1 }, open: { opacity: 0 } }}
@@ -26,7 +26,7 @@ const ToggleButton = ({ setOpen }) => {
 
           <motion.path
             strokeWidth="3"
-            stroke="black"
+            stroke="white"
             strokeLinecap="round"
             variants={{
               closed: { d: "M 2 15.5 L 20 15.5" },
