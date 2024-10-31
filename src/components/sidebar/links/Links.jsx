@@ -4,13 +4,13 @@ import React from 'react'
 const linkVariants={
   open:{
     transition:{
-      staggerChildren:0.1
+      staggerChildren:0.1,
     },
   },
   closed:{
   transition:{
       staggerChildren:0.05,
-      staggerDirection:-1
+      staggerDirection:-1,
   }
   }
 }
@@ -18,11 +18,13 @@ const linkVariants={
 const itemVariants={
   open:{
     y:0,
-    opacity:1
+    opacity:1,
+    delay:0.5
     },
   closed:{
     y:50,
-    opacity:0
+    opacity:0,
+    delay:0.5
   }
 }
 
